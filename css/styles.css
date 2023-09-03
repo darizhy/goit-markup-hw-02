@@ -33,7 +33,7 @@ nav{display: inline; width: 1440px;
     height: 600px;
     flex-shrink: 0;}
 main{ align-self: center;}
-.h1{ color:  #FFF;
+.h1-main{ color:  #FFF;
     text-align: center;
     /* Header 1 */
     font-family: Roboto;
@@ -63,19 +63,19 @@ main{ align-self: center;}
     cursor: pointer;}
 .button:hover{background-color: #404bbf;}
 .button:focus{ background: #404bbf;}
-
+.hid{ }
 .sect-title{color: #2E2F42;
     text-align: center;
     /* Header 2 */
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11
     letter-spacing: 0.72px;
     text-transform: capitalize;}
 .back-sect{ background-color: #F4F4FD;
 color: #2E2F42;}
-
+.li-team{ background-color: #FFFFFF;}
 .sect-cont{display: flex;
     width: 264px;
     flex-direction: column;
@@ -92,11 +92,11 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;}
-.h3{ color:  #2E2F42;
+.h3-all{ color:  #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.11
     letter-spacing: 0.4px;} 
 
 .sect-title-third{color: #2E2F42;
@@ -124,14 +124,14 @@ height: 420px;}
     letter-spacing: 0.32px;
     width: 264px;
     padding-left: 156px,140px,1020px,100px;}
-.logo-span{ color: #4D5AE5;
+.logo-span{ color: #2E2F42;
     font-family: Raleway, sans-serif;   
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;}
-    .logo{ color: #F4F4FD;
+.logo{ color: #F4F4FD;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -140,7 +140,7 @@ height: 420px;}
         letter-spacing: 0.54px;
         text-transform: uppercase; }
 
-.logo-top{ color: #2E2F42;
+.logo-top{ color: #4D5AE5;
     font-family: Raleway, sans-serif; 
     font-size: 18px;
     font-weight: 700;
