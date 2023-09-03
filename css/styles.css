@@ -9,6 +9,9 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 header{ }
 nav{}
+.link{ color: #2e2f42;}
+.link:hover{ color: #404bbf;}
+.link:focus{ color: #404bbf;}
 .li-nav{ color: #2E2F42; 
     font-weight: 500;
     font-size: 16px;
@@ -18,6 +21,9 @@ nav{}
  }
 .li-nav:hover{ color:  #404bbf;}
 .li-nav:focus{color: #404bbf;}
+.link-ad{ color: #434455;}
+.link-ad:hover{ color:#404bbf;}
+.link-ad:focus{ color: #404bbf;}
 .address-style{font-style: normal}
 .address-links{ color:#434455;
      line-height: 1.5;
@@ -27,15 +33,15 @@ nav{}
 
 .sect-main{background: #2E2F42;}
 main{ }
-.h1-main{ color:  #FFF;
+.h-main{ color:  #FFF;
     /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    /* 107.143% */
-    letter-spacing: 1.12px;}
- .button{ background: #4D5AE5;
+    letter-spacing: 1.12px;
+    text-align: center;}
+.button{ background: #4D5AE5;
     color: #FFF;
     /* Button Text */
     font-family: "Roboto", sans-serif;
@@ -54,17 +60,18 @@ main{ }
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    text-align: center;}
 .back-sect{ background-color: #F4F4FD;
 color: #2E2F42;}
 .li-team{ background-color: #FFFFFF;}
 .sect-cont{ }
-.h3-sect2{ color: #2e2f42; 
+.h-sect{ color: #2e2f42; 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
- }
+   }
 .inside-ul{ background-color: #FFF;}
 
 .para{ color: #434455;
@@ -72,12 +79,13 @@ color: #2E2F42;}
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;}
-.h3-all{ color:  #2E2F42;
+.h-all{ color:  #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;} 
+    letter-spacing: 0.02em;
+    text-align: center;} 
 
 .sect-title-third{color: #2E2F42;
     /* Header 2 */
