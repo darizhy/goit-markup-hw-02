@@ -1,9 +1,7 @@
 
 body{font-family: 'Roboto', sans-serif;
-color: #2E2F42;
+color: #434455;
 background: #FFF;
-width: 1440px;
-height: 3300px;
 }
 
 /* font-family: 'Montserrat', sans-serif;
@@ -16,24 +14,38 @@ header{ display: inline;
 nav{display: inline; width: 1440px;
     height: 72px;
     flex-shrink: 0;}
+.li-nav{ font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+.li-nav:hover{ color:  #404bbf;}
+.li-nav:focus {color: #404bbf;}
+.address-style{font-style: normal}
+.address-links{ color:#434455;
+     line-height: 1.5;
+    letter-spacing: 0.02em; }
+.address-links:hover{color: #404bbf;}
+.address-links:focus{ color:#404bbf;}
 .sect-main{background: #2E2F42;
     width: 1440px;
     height: 600px;
     flex-shrink: 0;}
 main{ align-self: center;}
-h1{ color:  #FFF;
+.h1{ color:  #FFF;
     text-align: center;
     /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
     width: 496px;
     height: 120px;
     padding: 472px, 188px, 472px, 292px;}
- button{display: inline-flex;
+ .button{display: inline-flex;
     padding: 16px 32px;
     align-items: center;
     gap: 10px;
@@ -42,13 +54,15 @@ h1{ color:  #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     /* Button Text */
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
     cursor: pointer;}
+.button:hover{background-color: #404bbf;}
+.button:focus{ background: #404bbf;}
 
 .sect-title{color: #2E2F42;
     text-align: center;
@@ -62,20 +76,44 @@ h1{ color:  #FFF;
 .back-sect{ background-color: #F4F4FD;
 color: #2E2F42;}
 
-
 .sect-cont{display: flex;
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;}
+    
 .inside-ul{ background-color: #FFF;
 border-radius: 0px 0px 4px 4px;
 display: inline-flex; 
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);}
+
+.para{ color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;}
+.h3{ color:  #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;} 
+
+.sect-title-third{color: #2E2F42;
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-transform: capitalize;}
+.porfolio-li{ background-color: #FFFFFF;}
 .porf-inside{ display: flex; 
     flex-direction: column; 
     align-items: flex-start;}
-footer{ background-color: #2E2F42;}
+.footer{ background-color: #2E2F42;}
 .footer-p{ color:#F4F4FD;
     font-family: Roboto;
     font-size: 16px;
@@ -84,37 +122,26 @@ footer{ background-color: #2E2F42;}
     width: 264px;
     padding-left: 156px,140px,1020px,100px;}
 .logo-span{ color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;   
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;}
     .logo{ color: #F4F4FD;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase; }
-p{ color: #434455;
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;}
-h3{ color:  #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;}
+
 .logo-top{ color: #2E2F42;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif; 
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;}
