@@ -139,7 +139,11 @@ height: 420px;}
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase; }
-
+.logo-f{color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;}
 .logo-top{ color: #4D5AE5;
     font-family: Raleway, sans-serif; 
     font-size: 18px;
